@@ -1,0 +1,12 @@
+[
+  {
+    "Environment": "test",
+    "Configuration": {
+      "BuildxactStagingURL": "https://app-v2-staging.buildxact.com/",
+      "MailboxBaseURL": "https://email.ghostinspector.com/",
+      "UsersDataSheet": "\\testData\\TestData_Buildxact.xlsx",
+      "UsersDataSheet_SheetName": "Users",
+      "UsersDataSheet_NewUsersSheetName": "NewUsers"
+    }
+  }
+]
