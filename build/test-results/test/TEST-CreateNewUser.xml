@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreateNewUser" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-12-25T05:33:48" hostname="DELL" time="419.623">
+  <properties/>
+  <testcase name="Create a new user in buildxact application" classname="CreateNewUser" time="209.307"/>
+  <testcase name="Create a new user in buildxact application" classname="CreateNewUser" time="210.302"/>
+  <system-out><![CDATA[-----Before Scenario----
+-----After Scenario----
+-----Before Scenario----
+-----After Scenario----
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 45048
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 25, 2020 4:33:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 37730
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 25, 2020 4:37:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

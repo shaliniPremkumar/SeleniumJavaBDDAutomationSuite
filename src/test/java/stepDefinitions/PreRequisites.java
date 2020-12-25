@@ -76,12 +76,12 @@ public class PreRequisites extends BaseClass {
             driver.get(Objects.requireNonNull(TestDataHelper.getCurrentEnvironmentConfiguration()).getBuildxactStagingURL());
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            new ReportUtility(scenarioContext.getExtentTest()).log(LogStatus.PASS,"Logged into Buildxact application successfully");
+            new ReportUtility(scenarioContext.getExtentTest()).log(LogStatus.PASS,"Navigated into Buildxact application successfully");
         }
         catch (Exception e) {
             e.printStackTrace();
             System.out.println("Unable to navigate to Buildxact application");
-            new ReportUtility(scenarioContext.getExtentTest()).log(LogStatus.FAIL,"Login to Buildxact application failed");
+            new ReportUtility(scenarioContext.getExtentTest()).log(LogStatus.FAIL,"Navigation to Buildxact application failed");
         }
     }
 

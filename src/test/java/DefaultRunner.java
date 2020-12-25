@@ -16,7 +16,7 @@ import stepDefinitions.Hooks;
                 "junit:target/cucumber-results.xml",
         },
         features = {"src/test/java/features"},
-        tags = "@ResetBuildxactPassword"
+        tags = "@CreateANewBuildxactUser"
 )
 
 public class DefaultRunner extends Hooks {

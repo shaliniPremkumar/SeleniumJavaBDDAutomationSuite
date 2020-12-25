@@ -22,6 +22,29 @@ public class ScenarioContext {
         return this.a.get(var1);
     }
 
+    public String getSessionId() {
+        return sessionId;
+    }
+
+    public void setSessionId(String sessionId) {
+        this.sessionId = sessionId;
+    }
+
+    private String sessionId="init";
+
+    public String getWebDriver() {
+        return WebDriver;
+    }
+
+    public void setWebDriver(String webDriver) {
+        WebDriver = webDriver;
+    }
+
+    private String WebDriver;
+
+    public ReportUtility reportUtility;
+
+
     public static ExtentReports getExtentReports() {
         return extentReports;
     }

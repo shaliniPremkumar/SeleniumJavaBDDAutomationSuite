@@ -20,6 +20,7 @@ public class DashboardPage extends BaseClass {
     By continueButton = By.id("bx-continue");
     By okButton = By.xpath("//*[text()='OK']");
     By collapseButton = By.id("btn-menuLock-collapse");
+    By sidebarMenuButton = By.xpath("//*[@class='icon-ic-menu']");
     By resetPasswordButton = By.xpath("//*[contains(text(),'Reset Password')]");
 
 
