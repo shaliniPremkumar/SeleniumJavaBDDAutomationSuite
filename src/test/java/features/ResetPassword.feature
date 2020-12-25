@@ -18,3 +18,4 @@ Feature: ResetPassword
     Examples:
       |TestCaseName|
       |TestCase1   |
+      |TestCase2   |

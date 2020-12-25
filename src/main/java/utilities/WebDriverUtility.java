@@ -150,7 +150,7 @@ public class WebDriverUtility {
         try {
             File locator = (File) ((TakesScreenshot) this.wd).getScreenshotAs(OutputType.FILE);
             String var2 = UUID.randomUUID().toString() + ".jpg";
-            String var3 = "./ScreenshotOutput/" + var2;
+            String var3 = "./screenshotOutput/" + var2;
             File var5 = new File(var3);
             FileUtils.copyFile(locator, var5);
             return var5.getAbsolutePath();

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="186.578107">
-<testcase classname="Sai Baba" name="Reset the password for buildxact users" time="186.578107">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="419.595959">
+<testcase classname="CreateNewUser" name="Create a new user in buildxact application" time="209.299209">
 <system-out><![CDATA[Given I launch "Chrome" browser session.....................................passed
 When I navigate to Buildxact application....................................passed
 And I login to Buildxact application as per "TestCase1".....................passed
 Then I verify if the login is successful or not.............................passed
-Then I reset the user's password under My Profile...........................passed
+Then I navigate to My Business and fill and submit the new user form as per "TestCase1".passed
 And I logout from Buildxact application.....................................passed
-Then I navigate to the user's mailbox, open the Password Reset mail and reset the password as per "TestCase1".passed
-And I logout from Buildxact application.....................................passed
-Then I login to the Buildxact application with the new password as per "TestCase1".passed
+Then I navigate to the user's mailbox, open the Welcome mail, activate the user account as per "TestCase1".passed
 And I verify if the login is successful or not..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="CreateNewUser" name="Create a new user in buildxact application 2" time="210.29675">
+<system-out><![CDATA[Given I launch "Chrome" browser session.....................................passed
+When I navigate to Buildxact application....................................passed
+And I login to Buildxact application as per "TestCase2".....................passed
+Then I verify if the login is successful or not.............................passed
+Then I navigate to My Business and fill and submit the new user form as per "TestCase2".passed
 And I logout from Buildxact application.....................................passed
-Then I login to Buildxact application as per "TestCase1"....................passed
-And I verify if the login is successful or not after password reset with old password.passed
+Then I navigate to the user's mailbox, open the Welcome mail, activate the user account as per "TestCase2".passed
+And I verify if the login is successful or not..............................passed
 ]]></system-out>
 </testcase>
 </testsuite>

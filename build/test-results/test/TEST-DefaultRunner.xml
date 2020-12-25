@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DefaultRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DELL" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: CreateNewUser
+
+  @CreateANewBuildxactUser
+  Scenario Outline: Create a new user in buildxact application ?[90m# src/test/java/features/CreateNewUser.feature:4?[0m
+    ?[36mGiven I launch "Chrome" browser session?[0m
+    ?[36mWhen I navigate to Buildxact application?[0m
+    ?[36mAnd I login to Buildxact application as per "<TestCaseName>"?[0m
+    ?[36mThen I verify if the login is successful or not?[0m
+    ?[36mThen I navigate to My Business and fill and submit the new user form as per "<TestCaseName>"?[0m
+    ?[36mAnd I logout from Buildxact application?[0m
+    ?[36mThen I navigate to the user's mailbox, open the Welcome mail, activate the user account as per "<TestCaseName>"?[0m
+    ?[36mAnd I verify if the login is successful or not?[0m
+
+    Examples: 
+
+  @CreateANewBuildxactUser
+  Scenario Outline: Create a new user in buildxact application                                                 ?[90m# src/test/java/features/CreateNewUser.feature:15?[0m
+    ?[32mGiven ?[0m?[32mI launch ?[0m?[32m?[1m"Chrome"?[0m?[32m browser session?[0m                                                                    ?[90m# PreRequisites.i_launch_browser_session(String)?[0m
+    ?[32mWhen ?[0m?[32mI navigate to Buildxact application?[0m                                                                   ?[90m# PreRequisites.i_navigate_to_buildxact_application()?[0m
+    ?[32mAnd ?[0m?[32mI login to Buildxact application as per ?[0m?[32m?[1m"TestCase1"?[0m                                                    ?[90m# LoginLogoutClass.i_login_to_buildxact_application_as_per(String)?[0m
+    ?[32mThen ?[0m?[32mI verify if the login is successful or not?[0m                                                            ?[90m# LoginLogoutClass.i_verify_if_the_login_is_successful_or_not()?[0m
+    ?[32mThen ?[0m?[32mI navigate to My Business and fill and submit the new user form as per ?[0m?[32m?[1m"TestCase1"?[0m                    ?[90m# NewUserClass.i_navigate_to_my_business_and_fill_and_submit_the_new_user_form_as_per(String)?[0m
+    ?[32mAnd ?[0m?[32mI logout from Buildxact application?[0m                                                                    ?[90m# LoginLogoutClass.i_logout_from_buildxact_application()?[0m
+    ?[32mThen ?[0m?[32mI navigate to the user's mailbox, open the Welcome mail, activate the user account as per ?[0m?[32m?[1m"TestCase1"?[0m ?[90m# MailClass.i_navigate_to_the_user_mailbox_open_the_welcome_mail_activate_the_user_account_as_per(String)?[0m
+    ?[32mAnd ?[0m?[32mI verify if the login is successful or not?[0m                                                             ?[90m# LoginLogoutClass.i_verify_if_the_login_is_successful_or_not()?[0m
+
+  @CreateANewBuildxactUser
+  Scenario Outline: Create a new user in buildxact application                                                 ?[90m# src/test/java/features/CreateNewUser.feature:16?[0m
+    ?[32mGiven ?[0m?[32mI launch ?[0m?[32m?[1m"Chrome"?[0m?[32m browser session?[0m                                                                    ?[90m# PreRequisites.i_launch_browser_session(String)?[0m
+    ?[32mWhen ?[0m?[32mI navigate to Buildxact application?[0m                                                                   ?[90m# PreRequisites.i_navigate_to_buildxact_application()?[0m
+    ?[32mAnd ?[0m?[32mI login to Buildxact application as per ?[0m?[32m?[1m"TestCase2"?[0m                                                    ?[90m# LoginLogoutClass.i_login_to_buildxact_application_as_per(String)?[0m
+    ?[32mThen ?[0m?[32mI verify if the login is successful or not?[0m                                                            ?[90m# LoginLogoutClass.i_verify_if_the_login_is_successful_or_not()?[0m
+    ?[32mThen ?[0m?[32mI navigate to My Business and fill and submit the new user form as per ?[0m?[32m?[1m"TestCase2"?[0m                    ?[90m# NewUserClass.i_navigate_to_my_business_and_fill_and_submit_the_new_user_form_as_per(String)?[0m
+    ?[32mAnd ?[0m?[32mI logout from Buildxact application?[0m                                                                    ?[90m# LoginLogoutClass.i_logout_from_buildxact_application()?[0m
+    ?[32mThen ?[0m?[32mI navigate to the user's mailbox, open the Welcome mail, activate the user account as per ?[0m?[32m?[1m"TestCase2"?[0m ?[90m# MailClass.i_navigate_to_the_user_mailbox_open_the_welcome_mail_activate_the_user_account_as_per(String)?[0m
+    ?[32mAnd ?[0m?[32mI verify if the login is successful or not?[0m                                                             ?[90m# LoginLogoutClass.i_verify_if_the_login_is_successful_or_not()?[0m
+
+2 Scenarios (?[32m2 passed?[0m)
+16 Steps (?[32m16 passed?[0m)
+6m59.900s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
