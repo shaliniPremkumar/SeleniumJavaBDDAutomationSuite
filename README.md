@@ -20,6 +20,8 @@ Open a command window and run:
 ```
 This runs Cucumber features using Cucumber's JUnit runner. The ```@RunWith(Cucumber.class)``` annotation on the ```RunCucumberTest``` class tells JUnit to kick off Cucumber.
 
+Before running the project, clean the build directory using ```gradle clean``` and build using ```gradle build ```.
+
 ## Overriding options
 The Cucumber runtime parses command line options to know what features to run, where the glue code lives, what plugins to use etc. When you use the JUnit runner, these options are generated from the ```@CucumberOptions``` annotation on your test.
 
