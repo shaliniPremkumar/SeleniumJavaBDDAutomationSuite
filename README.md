@@ -1,4 +1,4 @@
-# Selenium-Java-BDD Automation Suite
+# Buildxact Application Testing Automation Suite
 This repository contains a Java based Selenium BDD (Cucumber) automation suite (based on the Page Object Model), embedded with Extent reporting.
 The suite contains 1 features cvering 3 different scenarios.
 
